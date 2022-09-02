@@ -8,12 +8,7 @@ export const readPdf = (pathToPdf: string) => {
         const pdfPath = path.resolve(pathToPdf)
         let dataBuffer = fs.readFileSync(pdfPath);
         pdf(dataBuffer).then(function ({ text }) {
-
             resolve(text)
-
         });
     })
-
-
-
 }
