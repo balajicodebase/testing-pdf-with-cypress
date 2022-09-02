@@ -8,7 +8,7 @@ module.exports = defineConfig({
         readPdf
       })
     },
-    baseUrl: 'https://www.google.com/',
+    baseUrl: 'http://localhost:3000',
     trashAssetsBeforeRuns: false
   },
 });
